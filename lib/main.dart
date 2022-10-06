@@ -1,7 +1,11 @@
+import 'package:allwellbuy/auth/login_page.dart';
+import 'package:allwellbuy/auth/register_page.dart';
+import 'package:allwellbuy/auth/welcome_page.dart';
+import 'package:allwellbuy/routes/route.dart';
 import 'package:allwellbuy/ui/ButtonNviBar.dart';
-import 'package:allwellbuy/ui/sccreens/card.dart';
+import 'package:allwellbuy/ui/sccreens/card_screen.dart';
 import 'package:allwellbuy/widgets/card_widget.dart';
-import 'package:allwellbuy/widgets/parcent_indicator.dart';
+import 'package:allwellbuy/widgets/parcent_indicator_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -22,12 +26,13 @@ class MyApp extends StatelessWidget {
         splitScreenMode: true,
         builder: (context, child) {
           return MaterialApp(
+            debugShowCheckedModeBanner: false,
             title: 'Food delivery app',
             theme: ThemeData(
               textTheme: GoogleFonts.allertaTextTheme(),
             ),
-            home: ButtonNviBar(),
-            debugShowCheckedModeBanner: false,
+            initialRoute: RouteManager.welcomePage,
+            onGenerateRoute: RouteManager.generateRoute,
           );
         });
   }

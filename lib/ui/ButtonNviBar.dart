@@ -1,8 +1,9 @@
-import 'package:allwellbuy/ui/pages/Activties.dart';
-import 'package:allwellbuy/ui/pages/Profile.dart';
-import 'package:allwellbuy/ui/sccreens/home.dart';
-import 'package:allwellbuy/ui/sccreens/card.dart';
-import 'package:allwellbuy/ui/sccreens/pay.dart';
+
+import 'package:allwellbuy/ui/sccreens/activties_screen.dart';
+import 'package:allwellbuy/ui/sccreens/home_screen.dart';
+import 'package:allwellbuy/ui/sccreens/card_screen.dart';
+import 'package:allwellbuy/ui/sccreens/pay_screen.dart';
+import 'package:allwellbuy/ui/sccreens/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

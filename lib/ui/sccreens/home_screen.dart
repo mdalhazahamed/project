@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:allwellbuy/const/colors.dart';
 import 'package:allwellbuy/styles/style.dart';
 import 'package:allwellbuy/widgets/card_widget.dart';
@@ -47,23 +45,24 @@ class HomeScreen extends StatelessWidget {
           ],
           elevation: 0,
         ),
-        body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-          child: SingleChildScrollView(
-            scrollDirection: Axis.vertical,
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  "Welcome,",
-                  style: TextStyle(
-                      fontSize: 14.sp,
-                      color: AppColors.greydColor,
-                      fontWeight: FontWeight.w500),
-                ),
-                Text(
-                  "Samuel Flecher",
-                  style: style28,
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 25),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Welcome,", style: style14to),
+                      Text(
+                        "Samuel Flecher",
+                        style: style28,
+                      ),
+                    ],
+                  ),
                 ),
                 SizedBox(height: 10.h),
                 Container(
@@ -74,7 +73,6 @@ class HomeScreen extends StatelessWidget {
                 SizedBox(height: 20.h),
                 CardWidget(),
                 TransationsWidget(),
-                Text("dffjdi")
               ],
             ),
           ),

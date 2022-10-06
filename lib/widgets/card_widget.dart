@@ -10,7 +10,6 @@ class CardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -18,10 +17,10 @@ class CardWidget extends StatelessWidget {
               children: [
                 Card(
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
+                    borderRadius: BorderRadius.circular(15),
                   ),
                   child: Container(
-                    height: 120.h,
+                    height: 130.h,
                     width: 100.w,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,

@@ -44,7 +44,7 @@ dependencies:
   badges: ^2.0.3
   percent_indicator: ^4.2.2
   flutter_svg: ^1.1.5
-  
+  introduction_screen: ^3.0.2
 
 dev_dependencies:
   flutter_test:

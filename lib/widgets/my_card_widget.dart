@@ -5,10 +5,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyCards extends StatelessWidget {
   final color;
+  final String date;
 
   const MyCards({
     Key? key,
     this.color,
+    required this.date,
   });
   @override
   Widget build(BuildContext context) {
@@ -40,7 +42,7 @@ class MyCards extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text("PEEELY  AGENCY", style: style),
-                Text("11/12", style: style),
+                Text(date, style: style),
               ],
             ),
           ],
