@@ -99,7 +99,7 @@ class CardWidget extends StatelessWidget {
                     SizedBox(height: 12.h),
                     Text(
                       "Cards",
-                      style: style16,
+                      style: style16(Colors.black),
                     ),
                   ],
                 ),

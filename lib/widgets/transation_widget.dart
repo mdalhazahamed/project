@@ -96,7 +96,7 @@ class TransationsWidget extends StatelessWidget {
                             children: [
                               Text(
                                 listData[i].name,
-                                style: style16,
+                                style: style16(Colors.black),
                               ),
                               SizedBox(height: 5.h),
                               Text(listData[i].subtitle, style: style12),

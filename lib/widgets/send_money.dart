@@ -64,7 +64,7 @@ class SendMoney extends StatelessWidget {
                   SizedBox(height: 10.h),
                   Text(
                     "Elvira",
-                    style: style16,
+                    style: style16(Colors.black),
                   ),
                   SizedBox(height: 2.h),
                   Text(

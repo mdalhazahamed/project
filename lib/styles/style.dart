@@ -33,7 +33,7 @@ TextStyle style12 = TextStyle(
 TextStyle style14to = TextStyle(
     fontSize: 14.sp, color: AppColors.greydColor, fontWeight: FontWeight.w500);
 
-TextStyle style16 = TextStyle(fontSize: 16, fontWeight: FontWeight.w500);
+TextStyle style16 (color) => TextStyle(fontSize: 16, fontWeight: FontWeight.w500,color: color);
 
 TextStyle style25 = TextStyle(
     fontSize: 22, color: AppColors.blackColor, fontWeight: FontWeight.w500);

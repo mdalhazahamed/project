@@ -1,9 +1,11 @@
 import 'package:allwellbuy/auth/login_page.dart';
 import 'package:allwellbuy/auth/register_page.dart';
+import 'package:allwellbuy/auth/sign_up_page.dart';
 import 'package:allwellbuy/auth/welcome_page.dart';
 import 'package:allwellbuy/routes/route.dart';
 import 'package:allwellbuy/ui/ButtonNviBar.dart';
 import 'package:allwellbuy/ui/sccreens/card_screen.dart';
+import 'package:allwellbuy/ui/sccreens/pay_screen.dart';
 import 'package:allwellbuy/widgets/card_widget.dart';
 import 'package:allwellbuy/widgets/parcent_indicator_widget.dart';
 import 'package:flutter/material.dart';
