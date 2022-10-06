@@ -59,7 +59,7 @@ class RegisterPage extends StatelessWidget {
                 child: Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(right: 50, top: 30),
+                      padding: const EdgeInsets.only(right: 5, top: 30),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -117,9 +117,7 @@ class RegisterPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [],
                     ),
-                    SizedBox(
-                      height: 20.h,
-                    ),
+                    SizedBox(),
                   ],
                 ),
               ),

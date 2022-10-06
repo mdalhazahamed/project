@@ -44,8 +44,8 @@ class PayScreen extends StatelessWidget {
                       height: size.height * 0.07,
                       width: size.width * 0.8,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
+                          borderRadius: BorderRadius.circular(10),
+                          color: AppColors.whitedColor),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 5),
                         child: Row(
@@ -68,7 +68,7 @@ class PayScreen extends StatelessWidget {
                     inputAction: TextInputAction.next,
                   ),
                   PasswordInput(
-                    hint: 'Usernaem',
+                    hint: 'Username',
                     inputAction: TextInputAction.next,
                     inputType: TextInputType.emailAddress,
                   ),
@@ -76,10 +76,7 @@ class PayScreen extends StatelessWidget {
                     height: 10.h,
                   ),
                   InkWell(
-                      onTap: () {
-                       
-                      },
-                      child: RoundedButton(buttonName: 'Send')),
+                      onTap: () {}, child: RoundedButton(buttonName: 'Send')),
                   SizedBox(height: 10.h),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

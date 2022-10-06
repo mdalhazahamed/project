@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
             ),
             initialRoute: RouteManager.welcomePage,
             onGenerateRoute: RouteManager.generateRoute,
+            // home: PayScreen(),
           );
         });
   }
